@@ -7,7 +7,6 @@ import data from "../components/data";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { RiArrowDownSFill } from "react-icons/ri";
 
-const date = new Date();
 
 const getOrderTypeClass = (type) => {
   return type === "Dine In" ? "red" : type === "Delivery" ? "green" : "#e5b136";
