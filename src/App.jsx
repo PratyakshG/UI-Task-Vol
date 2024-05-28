@@ -7,10 +7,6 @@ import data from "../components/data";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { RiArrowDownSFill } from "react-icons/ri";
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 16bec8b2288d82af6608d8335993625299eae374
 const getOrderTypeClass = (type) => {
   return type === "Dine In" ? "red" : type === "Delivery" ? "green" : "#e5b136";
 };
