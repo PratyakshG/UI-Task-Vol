@@ -5,6 +5,7 @@ import { LuCalendarDays } from "react-icons/lu";
 
 import data from "../components/data";
 import { FaExternalLinkAlt } from "react-icons/fa";
+import { RiArrowDownSFill } from "react-icons/ri";
 
 const date = new Date();
 
@@ -71,8 +72,24 @@ function App() {
                   <th>Order ID</th>
                   <th>Table no</th>
                   <th>Customer name</th>
-                  <th>Order type</th>
-                  <th>Order status</th>
+                  <th>
+                    <div className="flex items-center">
+                      <span>Order type</span>
+                      <RiArrowDownSFill
+                        size={20}
+                        fill="black"
+                      />
+                    </div>
+                  </th>
+                  <th>
+                    <div className="flex items-center">
+                      <span>Order status</span>
+                      <RiArrowDownSFill
+                        size={20}
+                        fill="black"
+                      />
+                    </div>
+                  </th>
                   <th>Payment</th>
                   <th>Order date</th>
                   <th>View order</th>
