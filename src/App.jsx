@@ -49,14 +49,20 @@ function App() {
                   onChange={() => {}}
                 />
               </div>
-              <div className="flex gap-2 text-base items-center border border-gray-400 bg-white px-2 rounded-lg">
-                <VscSettings className="text-gray-400" />
+              <div className="flex gap-3 text-base items-center border border-gray-400 bg-white px-3 rounded-lg">
+                <VscSettings
+                  className="text-gray-400"
+                  size={20}
+                />
                 <span>Filters</span>
               </div>
-              <div className="flex gap-5 text-base items-center border border-gray-400 bg-white px-2 rounded-lg">
-                <LuCalendarDays className="text-gray-400" />
+              <div className="flex gap-10 text-base items-center border border-gray-400 bg-white px-2 rounded-xl">
+                <LuCalendarDays
+                  className="text-gray-400"
+                  size={20}
+                />
                 <span>Today</span>
-                <FaAngleDown />
+                <FaAngleDown className="text-base" />
               </div>
             </div>
           </div>
